@@ -1,0 +1,109 @@
+body {
+    background-color: #0E0E0E;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+main {
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 100%;
+    margin-top: -50px;
+}
+
+h2 {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+#darkDiv {
+    background-color: rgb(74, 74, 74);
+    text-align: center;
+    height: 100%;
+    margin-top: -10px;
+}
+
+h4 {
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 50px;
+    color: white;
+}
+
+#lightDiv {
+    background-color: rgb(155, 155, 155);
+    margin-top: -20px;
+    padding-top: 40px;
+    height: 100%;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+li {
+    list-style: none;
+}
+
+img {
+    margin-top: 20px;
+    height: 250px;
+    border: solid white 3px;
+    margin-bottom: 10px;
+}
+
+#oneBook {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #D8D8D8;
+    width: 90%;
+    box-shadow: 1px 2px #888888;
+    border-radius: 2px;
+}
+
+#title {
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0px 1px gray;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#author {
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#description {
+    overflow: auto;
+    text-align: left;
+    padding: 10px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 30%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    height: 40px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 8px;
+}

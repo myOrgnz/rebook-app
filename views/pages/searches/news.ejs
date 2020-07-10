@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles/new.css">
+
+</head>
+
+<body>
+    <main>
+        <h2>Best Books!</h2>
+        <div id="darkDiv">
+            <h4>Search by Title or Author</h4>
+            <div id="lightDiv">
+                <form action="/searches" method="POST">
+                    <div>
+                        <input id="enter" type="text" name="keyword" placeholder="Enter a title or author">
+                    </div>
+                    <div class="pick">
+                        <label>Title
+                        <input class="radio" type="radio" name="search" value="title" >
+                    </label> </div>
+                    <div class="pick">
+                        <label>Author
+                        <input class="radio2" type="radio" name="search" value="author">
+                    </label>
+                    </div>
+
+                    <button id="submit" type="submit" value="Search"> Search the Google Books API</button>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

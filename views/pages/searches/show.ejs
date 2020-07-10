@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Results</title>
+    <link rel="stylesheet" href="styles/show.css">
+
+</head>
+
+<body>
+    <main>
+        <h2>Best Books!</h2>
+        <div id="darkDiv">
+            <h4>Search Results</h4>
+            <div id="lightDiv">
+                <% books.forEach(book => { %>
+                    <li>
+                        <div id="oneBook">
+
+                            <div><img src=<%=book.image_url%>></div>
+
+                            <div id="title">
+                                <%=book.title%>
+                            </div>
+                            <div id="author">
+                                <%=book.author%>
+                            </div>
+                            <div id="description">
+                                <%=book.description%>
+                            </div>
+                        </div>
+                    </li>
+
+                    <%  }) %>
+            </div>
+        </div>
+        <div id="footer">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </main>
+
+</body>
+
+</html>
